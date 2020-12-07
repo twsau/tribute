@@ -23,15 +23,18 @@ export default class Bg extends Container {
 			])
 		});
 		Composite.add(this.bounds, Bodies.rectangle(5, 48, 10, 96, {
+			label: 'banks',
 			isStatic: true
 		}));
 		Composite.add(this.bounds, Bodies.rectangle(91, 48, 10, 96, {
+			label: 'banks',
 			isStatic: true
 		}));
 		this.water.y = -96;
 		this.water.animationSpeed = 0.05;
 		this.water.play();
 		this.banks = new Sprite(loader.resources['banks'].texture);
+		this.banks.zIndex = 10;
 		this.addChild(this.water, this.banks);
 	}
 	update() {

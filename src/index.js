@@ -5,12 +5,16 @@ const loader = Loader.shared;
 
 const manifest = {
 	banks: './asset/img/banks.png',
+	fork_0: './asset/img/fork_0.png',
+	fork_1: './asset/img/fork_1.png',
+	logo: './asset/img/logo.png',
 	raft_0: './asset/img/raft_0.png',
 	raft_1: './asset/img/raft_1.png',
 	raft_dead_0: './asset/img/raft_dead_0.png',
 	raft_dead_1: './asset/img/raft_dead_1.png',
 	rock_0: './asset/img/rock_0.png',
 	rock_1: './asset/img/rock_1.png',
+	theme: './asset/audio/tribute.wav',
 	water_0: './asset/img/water_0.png',
 	water_1: './asset/img/water_1.png',
 	water_2: './asset/img/water_2.png',
