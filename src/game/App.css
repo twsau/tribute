@@ -16,12 +16,12 @@ canvas {
 	background-color: black;
 	border: 1px solid white;
 	box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
-	height: 540px;
+	height: 384px;
 	left: 50%;
 	max-height: 100%;
 	max-width: 100%;
 	position: absolute;
 	top: 50%;
 	transform: translate(-50%, -50%);
-	width: 990px;
+	width: 384px;
 }
